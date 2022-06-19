@@ -7,13 +7,13 @@ from time import sleep
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from sdf import _site_view_
+    from fly import expetmysite
     print("\n Congratulations! Your device supported!\n")
     time.sleep(3)
-    _site_view_()
+    expetmysite()
 elif bit == '32bit':
     from f32 import readline___Public_Xml
-    print("\n Congratulations! Your device supported!\n")
+    print("\n Congraexpetmysitetulations! Your device supported!\n")
     time.sleep(3)
     readline___Public_Xml()
  
