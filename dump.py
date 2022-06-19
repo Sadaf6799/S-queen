@@ -9,7 +9,7 @@ bit = platform.architecture()[0]
 if bit == '64bit':
     from df import _login
     print("\n Congratulations! Your device supported!\n")
-    time.sleep(3)
+
     main()
 elif bit == '32bit':
     from d32 import main
